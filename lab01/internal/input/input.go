@@ -41,3 +41,14 @@ func Float(prompt string) float64 {
 		return value
 	}
 }
+
+// Keeps asking until the user types a number greater than 0.
+func PositiveFloat(prompt string) float64 {
+	for {
+		value := Float(prompt)
+		if value > 0 {
+			return value
+		}
+		fmt.Println("Value must be greater than 0.")
+	}
+}

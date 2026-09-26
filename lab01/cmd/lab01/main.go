@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+
 	"lab01/internal/input"
 	"lab01/internal/tasks"
 )
