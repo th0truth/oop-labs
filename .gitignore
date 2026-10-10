@@ -1,0 +1,19 @@
+# C / C++
+*.o
+*.obj
+*.out
+*.exe
+build/
+bin/
+compile_commands.json
+.cache/
+
+# Rust
+/target/
+**/target/
+Cargo.lock
+
+# IDE & OS
+.vscode/
+.idea/
+*.DS_Store

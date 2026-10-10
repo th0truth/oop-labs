@@ -6,11 +6,5 @@ Object-oriented programming coursework — console applications, one lab per dir
 
 | Lab | Topic | Language |
 |-----|-------|----------|
-| [lab01](./lab01) | Console applications: math tables, factorials, perfect numbers, text analysis | Go |
+| [lab01](./lab01) | Console applications: math tables, factorials, perfect numbers, text analysis | C++ |
 
-## Running a lab
-
-```sh
-cd lab01
-go run ./cmd/lab01
-```
